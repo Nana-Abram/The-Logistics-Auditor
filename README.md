@@ -1,3 +1,32 @@
+## Executive Summary
+
+This project analyzes delivery performance and customer satisfaction using the Olist Brazilian e-commerce dataset. The analysis shows that most orders are delivered on time and receive high customer ratings. However, late deliveries are associated with lower review scores, suggesting that delivery reliability significantly affects customer satisfaction. The dashboard highlights delivery distribution, review score patterns, and the relationship between delivery delays and customer feedback.
+
+---
+
+## Project Links
+
+Notebook: https://colab.research.google.com/drive/17uXNECybnee8tPGmpmH4BLitzc5JWMru?usp=sharing
+
+Dashboard: https://public.tableau.com/views/OlistDeliveryPerformanceDashboard_17729528137920/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Presentation: https://docs.google.com/presentation/d/1-K1lBN-OgzyKPCOfDkiqYi3JkhrUEcKy/edit?usp=sharing&ouid=104228365335330882098&rtpof=true&sd=true
+
+---
+
+## Technical Explanation
+
+### Data Cleaning
+The datasets were merged using order_id as the primary key to create a unified dataset. Missing values were handled by removing incomplete delivery records where delivery dates were unavailable. Date fields were converted to datetime format to calculate delivery performance metrics.
+
+A new feature called "days_difference" was created to measure the difference between the actual delivery date and the estimated delivery date. Based on this value, a delivery status variable was created to categorize orders as either "On Time" or "Late".
+
+### Candidate’s Choice
+As an additional analysis, I examined the relationship between delivery delays and customer review scores. A scatter plot and correlation analysis were used to determine whether delayed deliveries lead to lower customer satisfaction. The results show a negative relationship, indicating that longer delivery delays are associated with lower review ratings.
+
+
+
+
 # Project Brief: The "Last Mile" Logistics Auditor
 
 **Client:** Veridi Logistics (Global E-Commerce Aggregator)  
