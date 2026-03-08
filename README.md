@@ -24,8 +24,7 @@ A new feature called "days_difference" was created to measure the difference bet
 ### Candidate’s Choice
 As an additional analysis, I examined the relationship between delivery delays and customer review scores. A scatter plot and correlation analysis were used to determine whether delayed deliveries lead to lower customer satisfaction. The results show a negative relationship, indicating that longer delivery delays are associated with lower review ratings.
 
-
-
+---
 
 # Project Brief: The "Last Mile" Logistics Auditor
 
