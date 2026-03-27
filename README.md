@@ -22,7 +22,7 @@ The datasets were merged using order_id as the primary key to create a unified d
 A new feature called "days_difference" was created to measure the difference between the actual delivery date and the estimated delivery date. Based on this value, a delivery status variable was created to categorize orders as either "On Time" or "Late".
 
 ### Candidate’s Choice
-As an additional analysis, I examined the relationship between delivery delays and customer review scores. A scatter plot and correlation analysis were used to determine whether delayed deliveries lead to lower customer satisfaction. The results show a negative relationship, indicating that longer delivery delays are associated with lower review ratings.
+As part of my additional analysis, I examined the average delivery delay by product category. The goal was to identify whether certain types of products are more prone to delays. From the visualization, I observed that some categories experience higher average delays, which may be due to factors like product size, handling requirements, or shipping complexity. This insight is important because it helps the logistics team focus on improving delivery performance for specific categories that may negatively impact customer satisfaction.
 
 ---
 
